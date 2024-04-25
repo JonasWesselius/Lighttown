@@ -32,7 +32,7 @@ header {
     font-size: 1.5rem;
 }
 nav {
-    margin-left: auto; /* Pushes the navigation to the right */
+    margin-left: auto;
     margin-right: 2rem;
 }
 nav ul {
@@ -76,11 +76,11 @@ nav ul li a.active::after {
 .language {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center button horizontally */
+    justify-content: center;
 }
 
 .language button {
-    margin-left: 0px; /* Add margin between buttons */
+    margin-left: 0px;
     padding: 5px 5px;
     border: none;
     border-radius: 50px;
@@ -88,17 +88,17 @@ nav ul li a.active::after {
     background-color: transparent;
     cursor: pointer;
     font-weight: 300;
-    vertical-align: middle; /* Align buttons vertically */
+    vertical-align: middle;
 }
 
 .language button.active {
     font-weight: 800;
-    position: relative; /* Make the button positioned */
-    top: -1px; /* Offset the button upward */
+    position: relative;
+    top: -1px; 
 }
 .divider{
-    position: relative; /* Make the button positioned */
-    top: -1px; /* Offset the button upward */
+    position: relative; 
+    top: -1px; 
 }
 
 /* 

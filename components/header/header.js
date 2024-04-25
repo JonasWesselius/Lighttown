@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add logic to change language to English
     });
 
-    // Function to set active link based on current page
+ 
     function setActiveLink(pageId, linkSelector) {
         const pageElement = document.getElementById(pageId);
         if (pageElement) {
@@ -34,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Call setActiveLink function for partners page
     setActiveLink("partners-page", 'a[href="../../partners.html"]');
     setActiveLink("contact-page", 'a[href="../../contact.html"]');
     setActiveLink("about-page", 'a[href="../../about.html"]');
