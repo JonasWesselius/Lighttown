@@ -12,6 +12,7 @@ header {
     align-items: center;
     color: #ffffff;
     font-family:'Montserrat', sans-serif;
+    z-index: 99;
 }
 
 .logo a {
