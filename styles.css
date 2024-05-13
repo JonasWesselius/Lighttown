@@ -1,4 +1,6 @@
-
+body{
+    background-color: #E9F4FA;
+}
 header {
     position: relative;
     z-index: 3;
