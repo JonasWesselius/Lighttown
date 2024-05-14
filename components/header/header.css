@@ -13,6 +13,7 @@ header {
     color: #ffffff;
     font-family:'Montserrat', sans-serif;
     z-index: 99;
+    border-bottom: 2px solid black;
 }
 
 .logo a {
