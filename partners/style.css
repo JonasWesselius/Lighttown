@@ -365,3 +365,185 @@ body {
     height: 300px;
     width: 1850px;
   }
+  .contact-us {
+    background-color: #c4d7e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-us {
+      padding: 0 20px;
+    }
+  }
+  
+  .contact-us-content {
+    display: flex;
+    width: 971px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-us-title {
+    color: #000;
+    font: 400 40px Inter, sans-serif;
+  }
+  
+  .contact-us-description {
+    color: #000;
+    align-self: stretch;
+    margin-top: 20px; 
+    font: 400 20px Inter, sans-serif;
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-us-description {
+      max-width: 100%;
+      margin-top: 15px; 
+    }
+  }
+  
+  .contact-us-subtitle {
+    color: #000;
+    margin-top: 15px; 
+    font: 400 20px Inter, sans-serif;
+    text-align: center;
+  }
+  
+  .contact-us-instructions {
+    color: #000;
+    margin-top: 15px; 
+    font: 400 20px Inter, sans-serif;
+    text-align: center;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-us-instructions {
+      max-width: 100%;
+    }
+  }
+  
+  .email-us-button {
+    border-radius: 10px;
+    background-color: #772432;
+    margin-top: 30px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 16px 29px;
+    font: 400 24px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .email-us-button {
+      margin-top: 20px;
+      padding: 0 20px 0 23px;
+    }
+  }
+  
+  .contact-form-container {
+    align-self: stretch;
+    display: flex;
+    margin-top: 30px; 
+    flex-direction: column;
+    padding: 0 38px;
+  }
+  
+  @media (max-width: 991px) {
+    .contact-form-container {
+      max-width: 100%;
+      margin-top: 20px; 
+      padding: 0 20px;
+    }
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .name-fields, .phone-company-fields {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 991px) {
+    .name-fields, .phone-company-fields {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+  
+  .name-field, .phone-field, .company-field {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  @media (max-width: 991px) {
+    .name-field, .phone-field, .company-field {
+      width: 100%;
+    }
+  }
+  
+  .contact-form-title {
+    font: 32px Inter, sans-serif;
+    text-align: center;
+  }
+  
+  .forename-label, .surname-label, .email-label, .phone-label, .company-label, .message-label {
+    margin-top: 20px;
+    font: 20px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .forename-label, .surname-label, .phone-label, .company-label {
+      margin-top: 20px;
+    }
+  }
+  
+  input, textarea {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .forename-input, .surname-input, .email-input, .phone-input, .company-input {
+    height: 45px;
+  }
+  
+  .message-input {
+    height: 173px;
+  }
+  
+  .send-message-button {
+    border-radius: 10px;
+    background-color: #772432;
+    align-self: flex-end;
+    margin-top: 20px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 16px 29px;
+    font: 400 24px Inter, sans-serif;
+  }
+  
+  @media (max-width: 991px) {
+    .send-message-button {
+      align-self: center;
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+  }
+  
