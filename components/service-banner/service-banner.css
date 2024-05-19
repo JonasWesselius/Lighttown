@@ -32,8 +32,8 @@
 .banner h1::after {
     content: "";
     display: block;
-    width: 50%;
+    width: 100%;
     height: 3px;
-    background: red;
+    background: #772432;
     margin: 10px auto 0;
 }
