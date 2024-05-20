@@ -204,3 +204,363 @@
       width: 100%;
     }
   }
+  .info-image {
+    aspect-ratio: 1.14;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    margin-top: 22px;
+  }
+
+  @media (max-width: 991px) {
+    .info-image {
+      margin-top: 40px;
+    }
+  }
+
+  .location-section {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 65, 101, 0.8);
+    margin-top: 66px;
+    padding: 44px 37px;
+  }
+
+  @media (max-width: 991px) {
+    .location-section {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+
+  .location-content-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .location-content-wrapper {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+
+  .location-text-column {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+  }
+
+  @media (max-width: 991px) {
+    .location-text-column {
+      width: 100%;
+    }
+  }
+
+  .location-text-wrapper {
+    display: flex;
+    margin-top: 7px;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  @media (max-width: 991px) {
+    .location-text-wrapper {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .location-title {
+    font: 700 32px Montserrat, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .location-title {
+      max-width: 100%;
+    }
+  }
+
+  .location-description {
+    margin-top: 97px;
+    font: 400 20px Source Sans Pro, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .location-description {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .location-image-column {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .location-image-column {
+      width: 100%;
+    }
+  }
+
+  .location-image {
+    aspect-ratio: 1.08;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  @media (max-width: 991px) {
+    .location-image {
+      margin-top: 40px;
+    }
+  }
+
+  .meet-members-title {
+    color: #000;
+    align-self: center;
+    margin-top: 111px;
+    font: 700 36px Montserrat, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .meet-members-title {
+      margin-top: 40px;
+    }
+  }
+
+  .members-section {
+    margin-top: 59px;
+  }
+
+  @media (max-width: 991px) {
+    .members-section {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+
+  .members-wrapper {
+    display: flex;
+    gap: 100px;
+  }
+
+  @media (max-width: 991px) {
+    .members-wrapper {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+
+  .member-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+  }
+
+  @media (max-width: 991px) {
+    .member-column {
+      width: 100%;
+    }
+  }
+
+  .member-card {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+    background-color: #275e7c;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    padding: 25px 25px 45px;
+  }
+
+  @media (max-width: 991px) {
+    .member-card {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+  }
+
+  .member-image {
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+  }
+
+  .member-name {
+    margin-top: 30px;
+    font: 700 24px Montserrat, sans-serif;
+  }
+
+  .member-role {
+    margin-top: 7px;
+    font: 400 20px Source Sans Pro, sans-serif;
+  }
+  .footer {
+    background-color: #004165;
+    padding: 27px 39px;
+  }
+  @media (max-width: 991px) {
+    .footer {
+      padding: 0 20px;
+    }
+  }
+  .footer-container {
+    display: flex;
+    gap: 20px;
+  }
+  @media (max-width: 991px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+  }
+  .footer-section, .footer-address, .footer-contact, .footer-social {
+    line-height: normal;
+    color: #fff;
+  }
+  .footer-section, .footer-address, .footer-contact, .footer-social {
+    flex-direction: column;
+    display: flex;
+  }
+  .footer-section {
+    width: 39%;
+    margin-left: 0;
+  }
+  @media (max-width: 991px) {
+    .footer-section {
+      width: 100%;
+    }
+  }
+  .footer-links, .footer-copyright {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .footer-links {
+    margin-top: 56px;
+  }
+  @media (max-width: 991px) {
+    .footer-links {
+      margin-top: 40px;
+      max-width: 100%;
+    }
+  }
+  .footer-copyright {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  @media (max-width: 991px) {
+    .footer-copyright {
+      max-width: 100%;
+    }
+  }
+  .footer-address {
+    width: 23%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .footer-address {
+      width: 100%;
+    }
+  }
+  .footer-address-details {
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .footer-address-details {
+      margin-top: 40px;
+    }
+  }
+  .footer-address-logo {
+    width: 90px;
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+  }
+  .footer-address-info {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  .footer-address-city {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+  }
+  .footer-address-building, .footer-address-street {
+    font-family: Montserrat, sans-serif;
+  }
+  .footer-address-building {
+    margin-top: 20px;
+  }
+  .footer-address-street {
+    margin-top: 6px;
+  }
+  .footer-contact {
+    width: 22%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .footer-contact {
+      width: 100%;
+    }
+  }
+  .footer-contact-details {
+    margin-top: 57px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  @media (max-width: 991px) {
+    .footer-contact-details {
+      margin-top: 40px;
+    }
+  }
+  .footer-contact-phone, .footer-contact-email {
+    font-family: Montserrat, sans-serif;
+  }
+  .footer-contact-email {
+    margin-top: 6px;
+  }
+  .footer-social {
+    width: 16%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .footer-social {
+      width: 100%;
+    }
+  }
+  .footer-social-icons {
+    display: flex;
+    gap: 13px;
+    margin-top: 42px;
+  }
+  @media (max-width: 991px) {
+    .footer-social-icons {
+      margin-top: 40px;
+    }
+  }
+  .footer-social-icon {
+    width: 50px;
+    aspect-ratio: 1;
+    object-fit: auto;
+    object-position: center;
+  }
+  .footer-social-icon-larger {
+    width: 52px;
+    aspect-ratio: 1.04;
+    object-fit: auto;
+    object-position: center;
+  }
