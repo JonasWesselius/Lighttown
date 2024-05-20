@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lighttown Speakers</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="components/contact/contact.css">
     <link rel="stylesheet" href="components/header/header.css">
 </head>
 <body id="contact-page">
@@ -29,14 +29,89 @@
             <button id="enBtn" class="lang-btn active">EN</button>
         </div>
     </header>
-
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
-    <script src="components/header/header.js"></script>
-</body>
-</html>
+    <section class="container">
+        <h1 class="heading">Got any questions or need our help?</h1>
+        <p class="subheading">
+          Don’t hesitate to contact us, we’re here for you! We will try to respond within 48 hours.
+        </p>
+        <div class="section">
+          <div class="content-wrapper">
+            <div class="left-column">
+              <div class="image-section">
+                <div class="image-wrapper">
+                  <div class="image-col">
+                    <img loading="lazy" src="images/contact-people.png"  />
+                  </div>
+                  <div class="form-column">
+                    <form class="form-group">
+                      <label for="fullName" class="label">Full name:</label>
+                      <input type="text" id="fullName" class="input" />
+                      <label for="email" class="label" style="margin-top: 36px;">E-mail address:</label>
+                      <input type="email" id="email" class="input" />
+                      <label for="message" class="label" style="margin-top: 35px;">Your message:</label>
+                      <textarea id="message" class="message-input"></textarea>
+                      <button class="submit-button">Contact us</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <aside class="right-column">
+              <div class="contact-info">
+                <p class="contact-title">Contact</p>
+                <p class="contact-details">
+                  +31 6 12345678 <br /> info@lighttownspeakers.com
+                </p>
+                <p class="social-title">Socials</p>
+                <div class="social-wrapper">
+                  <img loading="lazy" src="images/linedin.png" alt="" class="social-icon" />
+                  <p class="social-name">Lighttown Speakers</p>
+                </div>
+                <div class="social-item">
+                  <img loading="lazy" src="images/facebook.png" alt="" class="social-icon-large" />
+                  <p class="social-name-large">Lighttown Speakers</p>
+                </div>
+                <div class="alt-social-item">
+                  <img loading="lazy" src="images/m-image.png" alt="" class="alt-social-icon" />
+                  <p class="alt-social-name">Lighttown Speakers</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+          <div class="footer-container">
+            <section class="footer-section">
+              <div class="footer-links">Privacy & Cookies | Terms & Conditions</div>
+              <div class="footer-copyright">Copyright Lighttown Speakers, 2024 - All rights reserved</div>
+            </section>
+            <address class="footer-address">
+              <div class="footer-address-details">
+                <img loading="lazy" src="images/location (2).png" alt="Lighttown Speakers location logo" class="footer-address-logo" />
+                <div class="footer-address-info">
+                  <div class="footer-address-city">Eindhoven</div>
+                  <div class="footer-address-building">The Social Hub</div>
+                  <div class="footer-address-street">Stationsweg 1 <br /> 5611 AA Eindhoven</div>
+                </div>
+              </div>
+            </address>
+            <section class="footer-contact">
+              <div class="footer-contact-details">
+                <div class="footer-contact-phone">+31 6 12345678</div>
+                <div class="footer-contact-email">info@lighttownspeakers.com</div>
+              </div>
+            </section>
+            <section class="footer-social">
+              <div class="footer-social-icons">
+                <img loading="lazy" src="images/facebook.png"  class="footer-social-icon" />
+                <img loading="lazy" src="images/m-image.png"  class="footer-social-icon-larger" />
+                <img loading="lazy" src="images/linedin.png"  class="footer-social-icon" />
+              </div>
+            </section>
+          </div>
+        </footer>
+          <script src="components/header/header.js"></script>
+      </body>
+      </html>
+      
