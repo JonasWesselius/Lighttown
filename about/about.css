@@ -379,6 +379,10 @@
     color: #fff;
     width: 100%;
     padding: 25px 25px 45px;
+    border-top-left-radius: 11rem;
+    border-top-right-radius: 11rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
   }
 
   @media (max-width: 991px) {
