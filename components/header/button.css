@@ -1,0 +1,67 @@
+.btn-34,
+.btn-34 *,
+.btn-34 :after,
+.btn-34 :before,
+.btn-34:after,
+.btn-34:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-34 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #E9F4FA;
+  background-image: none;
+  color: #772432;
+  cursor: pointer;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-left: 0;
+  margin-right: 1.5rem;
+  padding: 0;
+  position: relative; /* Ensure it can act as a stacking context */
+  z-index: 1; /* Make sure it is above the pseudo-element */
+}
+.btn-34:disabled {
+  cursor: default;
+}
+.btn-34:-moz-focusring {
+  outline: auto;
+}
+.btn-34 svg {
+  display: block;
+}
+.btn-34 [hidden] {
+  display: none;
+}
+.btn-34 {
+  border-radius: 99rem;
+  border-width: 2px;
+  overflow: hidden;
+  padding: 0.8rem 1.5rem;
+  position: relative;
+}
+.btn-34:hover {
+  color: #E9F4FA; 
+}
+.btn-34 span {
+  font-weight: 600;
+  position: relative; /* Ensure it stays on top */
+  z-index: 2; /* Higher than the pseudo-element */
+}
+.btn-34:before {
+  aspect-ratio: 1;
+  background: #772432;
+  border-radius: 50%;
+  content: "";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.3s;
+  width: 0;
+  z-index: 1; /* Lower than the text */
+}
+.btn-34:hover:before {
+  width: 100%;
+}
