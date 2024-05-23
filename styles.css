@@ -61,7 +61,7 @@ h2{
     z-index: 2;
 }
 
-.divider {
+.splitter {
     margin-top: 2rem;
     position: relative;
     width: 100%;
@@ -76,7 +76,7 @@ h2{
     z-index: 3;
 }
 
-.divider img {
+.splitter img {
     position: absolute;
     top: -150px;
     max-width: 65%;
