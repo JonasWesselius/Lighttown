@@ -105,7 +105,7 @@
 
   .intro-description {
     text-align: justify;
-    margin-top: 46px;
+    margin-top: 5px;
     font: 400 20px/30px Source Sans Pro, -apple-system, Roboto, Helvetica, sans-serif;
   }
 
@@ -283,7 +283,7 @@
   }
 
   .location-description {
-    margin-top: 97px;
+    margin-top: 15px;
     font: 400 20px Source Sans Pro, sans-serif;
   }
 
