@@ -78,7 +78,7 @@ body {
   margin-top: 44px;
   align-items: center;
   justify-content: center;
-  padding: 20px 70px;
+  padding: 30px 80px;
 }
 
 @media (max-width: 991px) {
@@ -95,6 +95,7 @@ body {
   max-width: 100%;
   flex-direction: column;
   align-items: center;
+  margin-top: -30px;
 }
 
 .partners-header {
@@ -422,7 +423,7 @@ body {
 .contact-us-description {
   color: #000;
   align-self: stretch;
-  margin-top: 20px; 
+  margin-top: -15px; 
   font: 400 20px Inter, sans-serif;
   text-align: center;
 }
@@ -436,14 +437,14 @@ body {
 
 .contact-us-subtitle {
   color: #000;
-  margin-top: 15px; 
+  margin-top: -5px; 
   font: 400 20px Inter, sans-serif;
   text-align: center;
 }
 
 .contact-us-instructions {
   color: #000;
-  margin-top: 15px; 
+  margin-top: -5px; 
   font: 400 20px Inter, sans-serif;
   text-align: center;
 }
@@ -463,6 +464,7 @@ body {
   justify-content: center;
   padding: 16px 29px;
   font: 400 24px Inter, sans-serif;
+  border: none;
 }
 
 @media (max-width: 991px) {
@@ -564,6 +566,7 @@ input, textarea {
   justify-content: center;
   padding: 16px 29px;
   font: 400 24px Inter, sans-serif;
+  border: none;
 }
 
 @media (max-width: 991px) {
