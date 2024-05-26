@@ -45,15 +45,15 @@
 
 .bottom-right {
     position: absolute;
-    bottom: 4vw;
+    bottom: 3vw;
     right: 20vw;
     text-align: right;
 }
 
 .big-text {
-    font-size: 180px;
+    font-size: 150px;
 }
 
 .small-text {
-    font-size: 80px;
+    font-size: 70px;
 }
