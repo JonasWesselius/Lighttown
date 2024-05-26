@@ -523,9 +523,11 @@
     }
   }
   .footer-contact-details {
-    margin-top: 57px;
     font-size: 16px;
     font-weight: 400;
+    margin: auto;
+    margin-left: 390px;
+    margin-top: 12px;
   }
   @media (max-width: 991px) {
     .footer-contact-details {
@@ -549,8 +551,9 @@
   }
   .footer-social-icons {
     display: flex;
-    gap: 13px;
-    margin-top: 42px;
+    gap: 18px;
+    margin-top: 3px;
+    margin-left: 400px;
   }
   @media (max-width: 991px) {
     .footer-social-icons {
@@ -558,13 +561,13 @@
     }
   }
   .footer-social-icon {
-    width: 50px;
+    width: 40px;
     aspect-ratio: 1;
     object-fit: auto;
     object-position: center;
   }
   .footer-social-icon-larger {
-    width: 52px;
+    width: 40px;
     aspect-ratio: 1.04;
     object-fit: auto;
     object-position: center;
