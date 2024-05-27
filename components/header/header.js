@@ -38,4 +38,5 @@ document.addEventListener("DOMContentLoaded", function() {
     setActiveLink("contact-page", 'a[href="../../contact.html"]');
     setActiveLink("about-page", 'a[href="../../about.html"]');
     setActiveLink("services-page", 'a[href="../../services.html"]');
+    setActiveLink("members-page", 'a[href="../../members.html"]');
 });

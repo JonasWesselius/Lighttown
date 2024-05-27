@@ -21,6 +21,7 @@
   padding: 0;
   position: relative; /* Ensure it can act as a stacking context */
   z-index: 1; /* Make sure it is above the pseudo-element */
+  text-decoration: none;
 }
 .btn-34:disabled {
   cursor: default;
