@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighttown Speakers</title>
+    <link rel="stylesheet" href="components/contact/contact.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/header/button.css">
+</head>
+<body id="members-page">
+    <header>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../../images/Logo.svg" alt="Lighttown Speakers Logo">
+                <span>Lighttown Speakers</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../about.html" class="nav-link">About Us</a></li>
+                <li><a href="../../services.html" class="nav-link">Services</a></li>
+                <li><a href="../../partners.html" class="nav-link">Partners</a></li>
+                <li><a href="../../contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="members.html" class="btn-34"><span>Become a Member</span></a>
+        <div class="language">
+            <button id="nlBtn" class="lang-btn">NL</button>
+            <span class="divider">|</span> 
+            <button id="enBtn" class="lang-btn active">EN</button>
+        </div>
+    </header>
+<section class="container">
+    <h1 class="heading">Would you like to become a member?</h1>
+    <p class="subheading">
+        Sign up now, and try a free guest session.
+    </p>
+    <div class="section">
+        <div class="content-wrapper">
+            <div class="left-column">
+                <div class="image-section">
+                    <div class="image-wrapper">
+                        <div class="image-col">
+                            <img loading="lazy" src="images/contact-people.png" />
+                        </div>
+                        <div class="form-column">
+                            <form class="form-group" id="signupForm">
+                                <label for="fullName" class="label">Full name:</label>
+                                <input type="text" id="fullName" class="input" />
+                                <label for="email" class="label" style="margin-top: 36px;">E-mail address:</label>
+                                <input type="email" id="email" class="input" />
+                                <label for="message" class="label" style="margin-top: 35px;">Your message:</label>
+                                <textarea id="message" class="message-input"></textarea>
+                                
+                                <label for="guestSession" class="label" style="margin-top: 36px;">
+                                    <input type="checkbox" id="guestSession" class="checkbox" /> Do you want to use a guest session for free?
+                                </label>
+
+                                <label for="sessionDate" class="label" style="margin-top: 36px;">Plan your session:</label>
+                                <input type="text" id="sessionDate" class="input" placeholder="Select a date" readonly />
+
+                                <button class="submit-button" type="submit">Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <aside class="right-column">
+                <div class="contact-info">
+                    <p class="contact-title">Contact</p>
+                    <p class="contact-details">
+                        +31 6 12345678 <br /> info@lighttownspeakers.com
+                    </p>
+                    <p class="social-title">Socials</p>
+                    <div class="social-wrapper">
+                        <img loading="lazy" src="images/linedin.png" alt="" class="social-icon" />
+                        <p class="social-name">Lighttown Speakers</p>
+                    </div>
+                    <div class="social-item">
+                        <img loading="lazy" src="images/facebook.png" alt="" class="social-icon-large" />
+                        <p class="social-name-large">Lighttown Speakers</p>
+                    </div>
+                    <div class="alt-social-item">
+                        <img loading="lazy" src="images/m-image.png" alt="" class="alt-social-icon" />
+                        <p class="alt-social-name">Lighttown Speakers</p>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+</section>
+
+<div id="beruImageContainer" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+    <img id="beruImage" src="images/Warning.jpg" alt="Cannot become a member" style="cursor:pointer;" />
+</div>
+
+
+      <footer class="footer">
+          <div class="footer-container">
+            <section class="footer-section">
+              <div class="footer-links">Privacy & Cookies | Terms & Conditions</div>
+              <div class="footer-copyright">Copyright Lighttown Speakers, 2024 - All rights reserved</div>
+            </section>
+            <address class="footer-address">
+              <div class="footer-address-details">
+                <img loading="lazy" src="images/location (2).png" alt="Lighttown Speakers location logo" class="footer-address-logo" />
+                <div class="footer-address-info">
+                  <div class="footer-address-city">Eindhoven</div>
+                  <div class="footer-address-building">The Social Hub</div>
+                  <div class="footer-address-street">Stationsweg 1 <br /> 5611 AA Eindhoven</div>
+                </div>
+              </div>
+            </address>
+            <section class="footer-contact">
+              <div class="footer-contact-details">
+                <div class="footer-contact-phone">+31 6 12345678</div>
+                <div class="footer-contact-email">info@lighttownspeakers.com</div>
+              </div>
+            </section>
+            <section class="footer-social">
+              <div class="footer-social-icons">
+                <img loading="lazy" src="images/facebook.png"  class="footer-social-icon" />
+                <img loading="lazy" src="images/m-image.png"  class="footer-social-icon-larger" />
+                <img loading="lazy" src="images/linedin.png"  class="footer-social-icon" />
+              </div>
+            </section>
+          </div>
+        </footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const form = document.getElementById('signupForm');
+                const fullNameInput = document.getElementById('fullName');
+                const emailInput = document.getElementById('email');
+                const messageInput = document.getElementById('message');
+                const guestSessionCheckbox = document.getElementById('guestSession');
+                const sessionDateInput = document.getElementById('sessionDate');
+                const beruImageContainer = document.getElementById('beruImageContainer');
+                const beruImage = document.getElementById('beruImage');
+        
+                form.addEventListener('submit', function (event) {
+                    event.preventDefault();
+                    const fullName = fullNameInput.value.trim();
+        
+                    if (fullName === "Jonas" || fullName === "Teodor") {
+                        beruImageContainer.style.display = 'flex';
+                    } else {
+                        // Proceed with form submission (e.g., send data to server)
+                        alert('Form submitted successfully!');
+                    }
+                });
+        
+                beruImage.addEventListener('click', function () {
+                    beruImageContainer.style.display = 'none';
+                    fullNameInput.value = '';
+                    emailInput.value = '';
+                    messageInput.value = '';
+                    guestSessionCheckbox.checked = false;
+                    sessionDateInput.value = '';
+                });
+        
+                sessionDateInput.addEventListener('click', function () {
+                    const today = new Date();
+                    let date = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+                    
+                    const getNextBiweeklyWednesday = (startDate) => {
+                        let date = new Date(startDate);
+                        while (date.getDay() !== 3 || (Math.ceil(date.getDate() / 7) % 2 === 0)) {
+                            date.setDate(date.getDate() + 1);
+                        }
+                        return date;
+                    };
+        
+                    const nextBiweeklyWednesdays = [];
+                    for (let i = 0; i < 10; i++) { // Show next 10 biweekly Wednesdays
+                        date = getNextBiweeklyWednesday(date);
+                        nextBiweeklyWednesdays.push(date.toISOString().split('T')[0]);
+                        date.setDate(date.getDate() + 14);
+                    }
+        
+                    let dateOptions = nextBiweeklyWednesdays.map(date => `<option value="${date}">${date}</option>`).join('');
+                    let selectElement = document.createElement('select');
+                    selectElement.innerHTML = dateOptions;
+                    selectElement.addEventListener('change', function () {
+                        sessionDateInput.value = this.value;
+                    });
+                    
+                    sessionDateInput.parentNode.replaceChild(selectElement, sessionDateInput);
+                    selectElement.click();
+                });
+            });
+        </script>
+        
+          <script src="components/header/header.js"></script>
+</body>
+      </html>
+      
