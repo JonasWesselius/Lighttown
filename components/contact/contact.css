@@ -186,6 +186,9 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for interactions */
 }
+.submit-button:hover{
+  background-color: #8c2b41;
+}
 
 
   @media (max-width: 991px) {
